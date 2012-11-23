@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iCoach.Web", "iCoach\iCoach.Web.csproj", "{7DC8B3FC-45B7-4CBC-8D11-2F293E21E5C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iCoach.Core", "iCoach.Core\iCoach.Core.csproj", "{708A7355-C83F-42DB-94B5-67D53130E199}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iCoach.Data", "iCoach.Data\iCoach.Data.csproj", "{ADC96B0E-8268-45E7-95F8-8DD5A0255E7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DC8B3FC-45B7-4CBC-8D11-2F293E21E5C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DC8B3FC-45B7-4CBC-8D11-2F293E21E5C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DC8B3FC-45B7-4CBC-8D11-2F293E21E5C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DC8B3FC-45B7-4CBC-8D11-2F293E21E5C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{708A7355-C83F-42DB-94B5-67D53130E199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{708A7355-C83F-42DB-94B5-67D53130E199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{708A7355-C83F-42DB-94B5-67D53130E199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{708A7355-C83F-42DB-94B5-67D53130E199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADC96B0E-8268-45E7-95F8-8DD5A0255E7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADC96B0E-8268-45E7-95F8-8DD5A0255E7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADC96B0E-8268-45E7-95F8-8DD5A0255E7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADC96B0E-8268-45E7-95F8-8DD5A0255E7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
