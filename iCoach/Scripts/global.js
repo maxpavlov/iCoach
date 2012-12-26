@@ -10,15 +10,15 @@ iCoach.Lang = (function ($) {
         };
 
         $("#setRus").click(function () {
-            iCoach.SwitchLanguage('ru');
+            iCoach.Lang.SwitchLanguage('ru');
         });
         $("#setEng").click(function () {
-            iCoach.SwitchLanguage('en');
+            iCoach.Lang.SwitchLanguage('en');
         });
     };
 
     return { init: init };
-}($));
+})($);
 
 iCoach.GlobalLogic = (function ($) {
     "use strict";
