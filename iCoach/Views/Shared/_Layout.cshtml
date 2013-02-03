@@ -25,27 +25,20 @@
 															   new BasicPath("Base", "~/Content/themes/base"),
 															   new BasicPath("Content", "~/Content")
 														   }))
-
-		<!--[if gte IE 8 ]> 
-			<link href="@Url.Content("~/Content/globalIE.css")" rel="stylesheet" type="text/css">
-		<![endif]-->
-			<!--[if !IE 7]>
+		<!--[if !IE 7]>
 		<style type="text/css">
 				#wrap {display:table;height:100%}
 			</style>
 		<![endif]-->
-        Html.RequiresCss("global.en.css", "Content", 101);
-        Html.RequiresCss("global.css", "Content", 100);
-        Html.RequiresCss("html5.css", "Content", 99);
-        Html.RequiresCss("handheld.css?v=2", "Content", 97, new { media = "handheld" });
+        Html.RequiresCss("global/global.css", "Content", 100);
         Html.RequiresCss("jquery.ui.theme.css", "Base", 96);
 		}
 
 </head>
 <body>
-
+    @Html.Hidden("CheckIfAuthenticatedUrl", Url.Action("IsAuthenticated", "Authentication"))
 	<div id="wrap" class="noselect">
-		@*@{ Html.RenderPartial("_Header"); }*@
+		@{ Html.RenderPartial("_Header"); }
 
 		<div id="main" role="main">
 			@RenderBody()
