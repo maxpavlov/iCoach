@@ -1,0 +1,11 @@
+﻿<header>
+    <div id="logo">
+        <img src="@Url.Content("global/img/icoach-logo.png")" alt="iCoach"/>
+    </div>
+    <div id="logon">
+    @{
+        Html.RenderAction("RenderLogonView", "Authentication");
+    }
+    </div>
+    <div class="clear"></div>
+</header>
