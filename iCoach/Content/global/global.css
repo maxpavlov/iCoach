@@ -1,0 +1,14 @@
+﻿header > #logo {
+    float: left;
+    width: 29%;
+} 
+
+header > #logo > img {
+    display: block;
+    width: 100%;
+}
+
+header > #logon {
+    float: right;
+    width: 69%;
+}
